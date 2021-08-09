@@ -1,3 +1,4 @@
+@extends('site::layouts.master')
 @section('content')
     <!-- Slider Starts -->
     <div id="main-slide" class="carousel slide carousel-fade" data-ride="carousel">
@@ -315,7 +316,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="register.html" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="{{route('register')}}" class="btn btn-primary">ORDER NOW</a>
                                     </footer>
                                 </li>
                                 <!-- Sell Pricing Table #1 Ends -->
