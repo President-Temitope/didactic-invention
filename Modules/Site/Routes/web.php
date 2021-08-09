@@ -20,4 +20,6 @@ Route::get('/about','SiteController@about')->name('about');
 Route::get('/contact','SiteController@contact')->name('contact');
 Route::get('/plan','SiteController@plan')->name('plan');
 Route::get('/services','SiteController@services')->name('services');
+Route::get('/faq','SiteController@faq')->name('faq');
+Route::get('/terms','SiteController@terms')->name('terms-and-conditions');
 

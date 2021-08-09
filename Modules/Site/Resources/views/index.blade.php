@@ -67,10 +67,10 @@
         </div>
         <!-- Carousel Inner Ends -->
         <!-- Carousel Controlers Starts -->
-        <a class="left carousel-control" href="/" data-slide="prev">
+        <a class="left carousel-control" href="{{config('app.url')}}#main-slide" data-slide="prev">
             <span><i class="fa fa-angle-left"></i></span>
         </a>
-        <a class="right carousel-control" href="/" data-slide="next">
+        <a class="right carousel-control" href="{{config('app.url')}}#main-slide" data-slide="next">
             <span><i class="fa fa-angle-right"></i></span>
         </a>
         <!-- Carousel Controlers Ends -->
@@ -83,7 +83,7 @@
                 <!-- Feature Box Starts -->
                 <div class="feature-box col-md-4 col-sm-12">
                         <span class="feature-icon">
-							<img id="download-bitcoin" src="images/icons/orange/download-bitcoin.png" alt="download bitcoin">
+							<img id="download-bitcoin" src="{{asset('images/icons/orange/download-bitcoin.png')}}" alt="download bitcoin">
 						</span>
                     <div class="feature-box-content">
                         <h3>Download Bitcoin Wallet</h3>
@@ -94,7 +94,7 @@
                 <!-- Feature Box Starts -->
                 <div class="feature-box two col-md-4 col-sm-12">
                         <span class="feature-icon">
-							<img id="add-bitcoins" src="images/icons/orange/add-bitcoins.png" alt="add bitcoins">
+							<img id="add-bitcoins" src="{{asset('images/icons/orange/add-bitcoins.png')}}" alt="add bitcoins">
 						</span>
                     <div class="feature-box-content">
                         <h3>Add coins to your Wallet</h3>
@@ -105,7 +105,7 @@
                 <!-- Feature Box Starts -->
                 <div class="feature-box three col-md-4 col-sm-12">
                         <span class="feature-icon">
-							<img id="buy-sell-bitcoins" src="images/icons/orange/buy-sell-bitcoins.png" alt="buy and sell bitcoins">
+							<img id="buy-sell-bitcoins" src="{{asset('images/icons/orange/buy-sell-bitcoins.png')}}" alt="buy and sell bitcoins">
 						</span>
                     <div class="feature-box-content">
                         <h3>Buy/Sell with Wallet</h3>
@@ -175,7 +175,7 @@
                         <div class="col-sm-6 col-md-6 col-xs-12">
                             <div class="feature text-center">
                                     <span class="feature-icon">
-										<img id="strong-security" src="images/icons/orange/strong-security.png" alt="strong security"/>
+										<img id="strong-security" src="{{asset('images/icons/orange/strong-security.png')}}" alt="strong security"/>
 									</span>
                                 <h3 class="feature-title">Strong Security</h3>
                                 <p>Protection against DDoS attacks, <br>full data encryption</p>
@@ -187,7 +187,7 @@
                         <div class="col-sm-6 col-md-6 col-xs-12">
                             <div class="feature text-center">
                                     <span class="feature-icon">
-										<img id="world-coverage" src="images/icons/orange/world-coverage.png" alt="world coverage"/>
+										<img id="world-coverage" src="{{asset('images/icons/orange/world-coverage.png')}}" alt="world coverage"/>
 									</span>
                                 <h3 class="feature-title">World Coverage</h3>
                                 <p>Providing services in 99% countries<br> around all the globe</p>
@@ -201,7 +201,7 @@
                         <div class="col-sm-6 col-md-6 col-xs-12">
                             <div class="feature text-center">
                                     <span class="feature-icon">
-										<img id="payment-options" src="images/icons/orange/payment.png" alt="payment options"/>
+										<img id="payment-options" src="{{asset('images/icons/orange/payment.png')}}" alt="payment options"/>
 									</span>
                                 <h3 class="feature-title">Payment Options</h3>
                                 <p>Popular methods: Visa, MasterCard, <br>bank transfer, cryptocurrency</p>
@@ -213,7 +213,7 @@
                         <div class="col-sm-6 col-md-6 col-xs-12">
                             <div class="feature text-center">
                                     <span class="feature-icon">
-										<img id="mobile-app" src="images/icons/orange/mobile-app.png" alt="mobile app"/>
+										<img id="mobile-app" src="{{asset('images/icons/orange/mobile-app.png')}}" alt="mobile app"/>
 									</span>
                                 <h3 class="feature-title">Mobile App</h3>
                                 <p>Trading via our Mobile App, Available<br> in Play Store & App Store</p>
@@ -227,7 +227,7 @@
                         <div class="col-sm-6 col-md-6 col-xs-12">
                             <div class="feature text-center">
                                     <span class="feature-icon">
-										<img id="cost-efficiency" src="images/icons/orange/cost-efficiency.png" alt="cost-efficiency"/>
+										<img id="cost-efficiency" src="{{asset('images/icons/orange/cost-efficiency.png')}}" alt="cost-efficiency"/>
 									</span>
                                 <h3 class="feature-title">Cost efficiency</h3>
                                 <p>Reasonable trading fees for takers<br> and all market makers</p>
@@ -239,7 +239,7 @@
                         <div class="col-sm-6 col-md-6 col-xs-12">
                             <div class="feature text-center">
                                     <span class="feature-icon">
-										<img id="high-liquidity" src="images/icons/orange/high-liquidity.png" alt="high liquidity"/>
+										<img id="high-liquidity" src="{{asset('images/icons/orange/high-liquidity.png')}}" alt="high liquidity"/>
 									</span>
                                 <h3 class="feature-title">High Liquidity</h3>
                                 <p>Fast access to high liquidity orderbook<br> for top currency pairs</p>
@@ -301,7 +301,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="register.html" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="{{route('register')}}" class="btn btn-primary">ORDER NOW</a>
                                     </footer>
                                 </li>
                                 <!-- Buy Pricing Table #1 Ends -->
@@ -334,7 +334,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="register.html" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="{{route('register')}}" class="btn btn-primary">ORDER NOW</a>
                                     </footer>
                                 </li>
                                 <!-- Buy Pricing Table #2 Ends -->
@@ -348,7 +348,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="register.html" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="{{route('register')}}" class="btn btn-primary">ORDER NOW</a>
                                     </footer>
                                 </li>
                                 <!-- Sell Pricing Table #2 Ends -->
@@ -366,7 +366,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="register.html" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="{{route('register')}}" class="btn btn-primary">ORDER NOW</a>
                                     </footer>
                                 </li>
                                 <!-- Buy Pricing Table #3 Ends -->
@@ -381,7 +381,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="register.html" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="{{route('register')}}" class="btn btn-primary">ORDER NOW</a>
                                     </footer>
                                 </li>
                                 <!-- Sell Pricing Table #3 Ends -->
@@ -399,7 +399,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="register.html" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="{{route('register')}}" class="btn btn-primary">ORDER NOW</a>
                                     </footer>
                                 </li>
                                 <!-- Buy Pricing Table #4 Ends -->
@@ -413,7 +413,7 @@
                                         </div>
                                     </header>
                                     <footer class="pricing-footer">
-                                        <a href="register.html" class="btn btn-primary">ORDER NOW</a>
+                                        <a href="{{route('register')}}" class="btn btn-primary">ORDER NOW</a>
                                     </footer>
                                 </li>
                                 <!-- Sell Pricing Table #4 Ends -->
@@ -612,7 +612,7 @@
         </div>
     </section>
     <!-- Quote and Chart Section Ends -->
-    <!-- Blog Section Starts -->
+    {{--<!-- Blog Section Starts -->
     <section class="blog">
         <div class="container">
             <!-- Section Title Starts -->
@@ -700,7 +700,7 @@
             <!-- Section Content Ends -->
         </div>
     </section>
-    <!-- Blog Section Ends -->
+    <!-- Blog Section Ends -->--}}
     <!-- Call To Action Section Starts -->
     <section class="call-action-all">
         <div class="call-action-all-overlay">

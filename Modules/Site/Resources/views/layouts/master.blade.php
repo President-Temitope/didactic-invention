@@ -19,11 +19,11 @@
     <!-- Live Style Switcher - demo only -->
     <!-- <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
     <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" /> -->
-    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
-    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="{{asset('css/skins/blue.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset('css/styleswitcher.css')}}" />
 
     <!-- Template JS Files -->
-    <script src="js/modernizr.js"></script>
+    <script src="{{asset('js/modernizr.js')}}"></script>
 
 </head>
 
@@ -139,7 +139,7 @@
                 <div class="site-nav-inner">
                     <!-- Logo For ONLY Mobile display Starts -->
                     <a class="logo-mobile" href="/">
-                        <img id="logo-mobile" class="img-responsive" src="images/logo-dark.png" alt="">
+                        <img id="logo-mobile" class="img-responsive" src="{{asset('images/logo-dark.png')}}" alt="">
                     </a>
                     <!-- Logo For ONLY Mobile display Ends -->
                     <!-- Toggle Icon for Mobile Starts -->
@@ -211,11 +211,11 @@
                         <div class="menu">
                             <ul>
                                 <li><a href="/">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
+                                <li><a href="{{route('about')}}">About</a></li>
+                                <li><a href="{{route('services')}}">Services</a></li>
+                                <li><a href="{{route('plan')}}">Pricing</a></li>
                                 <!-- <li><a href="blog-right-sidebar.html">Blog</a></li> -->
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="{{route('contact')}}">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -225,8 +225,8 @@
                         <h4>Help & Support</h4>
                         <div class="menu">
                             <ul>
-                                <li><a href="faq.html">FAQ</a></li>
-                                <li><a href="terms-of-services.html">Terms of Services</a></li>
+                                <li><a href="{{route('faq')}}">FAQ</a></li>
+                                <li><a href="{{route('terms-and-conditions')}}">Terms of Services</a></li>
                                 <!-- <li><a href="404.html">404</a></li> -->
                                 <!-- <li><a href="register.html">Register</a></li>
                                 <li><a href="login.html">Login</a></li> -->
@@ -290,11 +290,11 @@
                         <!-- Supported Payment Cards Logo Starts -->
                         <div class="payment-logos">
                             <h4 class="payment-title">supported payment methods</h4>
-                            <img src="images/icons/payment/american-express.png" alt="american-express">
-                            <img src="images/icons/payment/mastercard.png" alt="mastercard">
-                            <img src="images/icons/payment/visa.png" alt="visa">
-                            <img src="images/icons/payment/paypal.png" alt="paypal">
-                            <img class="last" src="images/icons/payment/maestro.png" alt="maestro">
+                            <img src="{{asset('images/icons/payment/american-express.png')}}" alt="american-express">
+                            <img src="{{asset('images/icons/payment/mastercard.png')}}" alt="mastercard">
+                            <img src="{{asset('images/icons/payment/visa.png')}}" alt="visa">
+                            <img src="{{asset('images/icons/payment/paypal.png')}}" alt="paypal">
+                            <img class="last" src="{{asset('images/icons/payment/maestro.png')}}" alt="maestro">
                         </div>
                         <!-- Supported Payment Cards Logo Ends -->
                     </div>
@@ -309,7 +309,7 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <!-- Copyright Text Starts -->
-                        <p class="text-center">Copyright © 2021 Daytrader.exchange All Rights Reserved | Created with Love by IT Developer
+                        <p class="text-center">Copyright © @php echo date('Y');@endphp {{config('app.name')}} All Rights Reserved | Created with Love by IT Developer
                             <!-- Copyright Text Ends -->
                     </div>
                 </div>
@@ -323,19 +323,16 @@
     <!-- Back To Top Ends  -->
 
     <!-- Template JS Files -->
-    <script src="js/jquery-2.2.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/select2.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{{asset('js/jquery-2.2.4.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/select2.min.js')}}"></script>
+    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('js/custom.js')}}"></script>
 
     <!-- Live Style Switcher JS File - only demo -->
-    <script src="js/styleswitcher.js"></script>
+    <script src="{{asset('js/styleswitcher.js')}}"></script>
 
 </div>
 <!-- Wrapper Ends -->
 </body>
-
-
-<!-- Mirrored from slimhamdi.net/bayya/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Jan 2021 16:08:04 GMT -->
 </html>
