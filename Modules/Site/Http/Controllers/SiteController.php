@@ -57,7 +57,7 @@ class SiteController extends Controller
 
         $credentials = $request->only('email', 'password');
         if (\Auth::attempt($credentials)) {
-            return redirect()->intended('home');
+            return redirect()->intended('dashboard');
         }else{
             session()->flash('message', 'Invalid credentials');
             return redirect()->back();
@@ -79,7 +79,7 @@ class SiteController extends Controller
             'email' => strtolower($request->input('email')),
             'password' => bcrypt($request->input('password')),
             'coin_type' => trim($request->input('coin_type')),
-            'coin_address' => trim($request->input('coin_address')),
+            'wallet_address' => trim($request->input('wallet_address')),
 
 
         ];

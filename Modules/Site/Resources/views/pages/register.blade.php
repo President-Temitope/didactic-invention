@@ -1,34 +1,30 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
-
-<!-- Mirrored from slimhamdi.net/bayya/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Jan 2021 16:08:05 GMT -->
 <head>
 
     <meta charset="utf-8" />
-    <title>Register - Bayya Bitcoin Crypto Currency Template</title>
+    <title>Register - {{config('app.name')}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="{{asset('images/favicon.png')}}">
 
     <!-- Template CSS Files -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/select2.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/skins/blue.css">
+    <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
+    <link rel="stylesheet" href="{{asset('css/select2.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/skins/blue.css')}}">
 
     <!-- Live Style Switcher - demo only -->
     <!-- <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
     <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" /> -->
-    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
-    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="{{asset('css/skins/blue.css')}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset('css/styleswitcher.css')}}" />
 
     <!-- Template JS Files -->
-    <script src="js/modernizr.js"></script>
+    <script src="{{asset('js/modernizr.js')}}"></script>
 
 </head>
 
@@ -101,8 +97,8 @@
     <div class="container-fluid user-auth">
         <div class="hidden-xs col-sm-4 col-md-4 col-lg-4">
             <!-- Logo Starts -->
-            <a class="logo" href="index.html">
-                <img id="logo-user" class="img-responsive" src="images/logo-dark.png" alt="logo">
+            <a class="logo" href="/">
+                <img id="logo-user" class="img-responsive" src="{{asset('images/logo-dark.png')}}" alt="logo">
             </a>
             <!-- Logo Ends -->
             <!-- Slider Starts -->
@@ -153,8 +149,8 @@
         </div>
         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
             <!-- Logo Starts -->
-            <a class="visible-xs" href="index.html">
-                <img id="logo" class="img-responsive mobile-logo" src="images/logo-dark.png" alt="logo">
+            <a class="visible-xs" href="/">
+                <img id="logo" class="img-responsive mobile-logo" src="{{asset('images/logo-dark.png')}}" alt="logo">
             </a>
             <!-- Logo Ends -->
             <div class="form-container">
@@ -166,7 +162,8 @@
                     </div>
                     <!-- Section Title Ends -->
                     <!-- Form Starts -->
-                    <form>
+                    <form method="POST" action="{{route('register')}}">
+                        @csrf
                         <!-- Input Field Starts -->
                         <div class="form-group">
                             <input class="form-control" name="name" id="name" placeholder="NAME" type="text" required>
@@ -180,6 +177,25 @@
                         <!-- Input Field Starts -->
                         <div class="form-group">
                             <input class="form-control" name="password" id="password" placeholder="PASSWORD" type="password" required>
+                        </div>
+                        <!-- Input Field Ends -->
+                        <!-- Input Field Starts -->
+                        <div class="form-group">
+                            <input class="form-control" name="password_confirmation" id="password" placeholder="CONFIRM PASSWORD" type="password" required>
+                        </div>
+                        <!-- Input Field Ends -->
+                        <!-- Input Field Starts -->
+                        <div class="form-group">
+                            <select class="form-control" name="coin_type" id="password">
+                                <option value="btc">Bitcoin</option>
+                                <option value="ltc">Litecoin</option>
+                                <option value="eth">Ethereum</option>
+                            </select>
+                        </div>
+                        <!-- Input Field Ends -->
+                        <!-- Input Field Starts -->
+                        <div class="form-group">
+                            <input class="form-control" name="wallet_address" placeholder="WALLET ADDRESS" type="text">
                         </div>
                         <!-- Input Field Ends -->
                         <!-- Submit Form Button Starts -->
@@ -198,19 +214,16 @@
         </div>
     </div>
     <!-- Template JS Files -->
-    <script src="js/jquery-2.2.4.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/select2.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="{{asset('js/jquery-2.2.4.min.js')}}"></script>
+    <script src="{{asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('js/select2.min.js')}}"></script>
+    <script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+    <script src="{{asset('js/custom.js')}}"></script>
 
     <!-- Live Style Switcher JS File - only demo -->
-    <script src="js/styleswitcher.js"></script>
+    <script src="{{asset('js/styleswitcher.js')}}"></script>
 
 </div>
 <!-- Wrapper Ends -->
 </body>
-
-
-<!-- Mirrored from slimhamdi.net/bayya/register.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 23 Jan 2021 16:08:05 GMT -->
 </html>
