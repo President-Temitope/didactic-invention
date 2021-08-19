@@ -100,8 +100,8 @@
                 <!-- Logo Starts -->
                 <div class="main-logo col-xs-12 col-md-3 col-md-2 col-lg-2 hidden-xs">
                     <a href="/">
-                        <!-- <img id="logo" class="img-responsive" src="images/logo-dark.png" alt="logo"> -->
-                        <img id="logo" class="img-responsive" alt="DAYTRADER.EXCHANGE">
+                        <img id="logo" class="img-responsive" src="{{asset('img/logo1.png')}}" alt="logo">
+                        <!-- <img id="logo" class="img-responsive" alt="DAYTRADER.EXCHANGE"> -->
                     </a>
                 </div>
                 <!-- Logo Ends -->
