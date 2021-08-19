@@ -638,8 +638,8 @@ body.light .shop-checkout .table tbody > tr {
 
 .main-logo {
   position: relative;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 22px;
+  padding-bottom: 0px;
 }
 
 .logo-mobile {
@@ -1052,7 +1052,7 @@ ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li.active a:hover {
 #main-slide .item {
   min-height: 570px;
   color: #fff;
-  background-position: 50% 50%;
+  background-position: 50% -18%;
   -webkit-background-size: cover;
   background-size: cover;
   -webkit-backface-visibility: hidden;
@@ -1065,6 +1065,12 @@ ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li.active a:hover {
 #main-slide .item.item-2 {
   background-image: url('../images/slider/bg2.jpg');
 }
+#main-slide .item.item-3 {
+
+  background-image: url('../images/slider/bg5.jpg');
+
+}
+
 
 #main-slide .item:after {
   content: "";
@@ -1124,6 +1130,8 @@ ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li.active a:hover {
   font-weight: 600;
   color: #fff;
   text-transform: uppercase;
+  position: relative;
+  left: 40px;
 }
 
 .slider-text .slide-title span {
@@ -1459,7 +1467,7 @@ ul.nav.nav-tabs li a:hover, ul.nav.nav-tabs li.active a:hover {
   background-image: url(../images/backgrounds/bg-video.jpg);
   background-size: cover;
   background-position: center center;
-  height: 625px;
+  height: 500px;
 }
 
 .bg-image-1:after {
@@ -4461,8 +4469,8 @@ h4.panel-title a.collapsed:before {
   }
 
   .logo-mobile img {
-    height: 34px;
-    margin-top: 8px;
+    height: 50px;
+    margin-top: 0px;
   }
 
   .navbar-collapse {
@@ -4486,6 +4494,8 @@ h4.panel-title a.collapsed:before {
     font-size: 26px;
     margin: 30px 0;
     line-height: 36px;
+    position: relative;
+    left: 0px;
   }
 
   .mobile-logo {

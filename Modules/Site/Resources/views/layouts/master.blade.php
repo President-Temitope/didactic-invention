@@ -100,7 +100,7 @@
                 <!-- Logo Starts -->
                 <div class="main-logo col-xs-12 col-md-3 col-md-2 col-lg-2 hidden-xs">
                     <a href="/">
-                        <img id="logo" class="img-responsive" src="{{asset('img/logo1.png')}}" alt="logo">
+                    <img id="logo" class="img-responsive" src="http://127.0.0.1:8000/img/logo1.png" alt="logo" style="position: relative; bottom: 7px;">
                         <!-- <img id="logo" class="img-responsive" alt="DAYTRADER.EXCHANGE"> -->
                     </a>
                 </div>
@@ -139,11 +139,12 @@
                 <div class="site-nav-inner">
                     <!-- Logo For ONLY Mobile display Starts -->
                     <a class="logo-mobile" href="/">
-                        <img id="logo-mobile" class="img-responsive" src="{{asset('images/logo-dark.png')}}" alt="">
+                        <img id="logo-mobile" class="img-responsive" src="{{asset('img/logo1.png')}}" alt="">
                     </a>
                     <!-- Logo For ONLY Mobile display Ends -->
                     <!-- Toggle Icon for Mobile Starts -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="background: transparent;">
+    
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -309,8 +310,9 @@
                 <div class="row">
                     <div class="col-xs-12">
                         <!-- Copyright Text Starts -->
-                        <p class="text-center">Copyright © @php echo date('Y');@endphp {{config('app.name')}} All Rights Reserved | Created with Love by IT Developer
+                        <p class="text-center">Copyright © @php echo date('Y');@endphp {{config('app.name')}} All Rights Reserved |
                             <!-- Copyright Text Ends -->
+                            <!-- Created with Love by IT Developer -->
                     </div>
                 </div>
             </div>

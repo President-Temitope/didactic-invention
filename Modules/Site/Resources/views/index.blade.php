@@ -16,7 +16,7 @@
                 <div class="slider-content">
                     <div class="container">
                         <div class="slider-text text-center">
-                            <!-- <h3 class="slide-title"><span>Your</span> <span>Easy Way</span><br/> To Daytrader</h3> -->
+                            <!-- <h3 class="slide-title"><span>Your are</span> <span></span><br/> To Daytrader.Exchange</h3> -->
                             <p>
                                 <!-- <a href="about.html" class="slider btn btn-primary">Learn more</a> -->
                             </p>
@@ -52,9 +52,9 @@
 
 
                                 </h3>
-                                <p>
+                                <!-- <p>
                                     <a href="{{route('plan')}}" class="slider btn btn-primary">prices</a>
-                                </p>
+                                </p> -->
                             </div>
                         </div>
                     </div>
