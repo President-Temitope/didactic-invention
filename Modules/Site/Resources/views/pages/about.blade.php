@@ -1,4 +1,4 @@
-@extends('site::layouts.master')
+@extends('site::layouts.master',[$elementActive = 'about'])
 @section('content')
     <!-- Banners Start -->
     <div class="banner about" id="home" style="background-image: url('assets/img/bg-2.html')">

@@ -1,4 +1,4 @@
-@extends('site::layouts.master')
+@extends('site::layouts.master',[$elementActive = 'contact'])
 @section('content')
     <!-- Banner Area Starts -->
     <section class="banner-area">

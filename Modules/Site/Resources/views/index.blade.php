@@ -1,4 +1,4 @@
-@extends('site::layouts.master')
+@extends('site::layouts.master',[$elementActive = 'home'])
 @section('content')
     <!-- Slider Starts -->
     <div id="main-slide" class="carousel slide carousel-fade" data-ride="carousel">
