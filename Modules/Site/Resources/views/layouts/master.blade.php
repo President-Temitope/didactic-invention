@@ -105,7 +105,7 @@
                     </a>
                 </div>
                 <!-- Logo Ends -->
-                <!-- Statistics Starts -->
+                <!-- Statistics Starts --> 
                 <div class="col-md-7 col-lg-7">
                     <ul class="unstyled bitcoin-stats text-center">
                         <li>
