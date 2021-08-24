@@ -144,7 +144,7 @@
                     <!-- Logo For ONLY Mobile display Ends -->
                     <!-- Toggle Icon for Mobile Starts -->
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" style="background: transparent;">
-    
+
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -154,10 +154,10 @@
                     <div class="collapse navbar-collapse navbar-responsive-collapse">
                         <!-- Main Menu Starts -->
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="/">Home</a></li>
-                            <li><a href="{{route('about')}}">About Us</a></li>
-                            <li><a href="{{route('services')}}">Services</a></li>
-                            <li><a href="{{route('plan')}}">Pricing</a></li>
+                            <li class="{{ $elementActive == 'home' ? 'active' : '' }}"><a href="/">Home</a></li>
+                            <li class="{{ $elementActive == 'about' ? 'active' : '' }}"><a href="{{route('about')}}">About Us</a></li>
+                            <li class="{{ $elementActive == 'services' ? 'active' : '' }}"><a href="{{route('services')}}">Services</a></li>
+                            <li class="{{ $elementActive == 'plan' ? 'active' : '' }}"><a href="{{route('plan')}}">Pricing</a></li>
                             <!-- <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <i class="fa fa-angle-down"></i></a>
                                 <ul class="dropdown-menu" role="menu">
@@ -181,7 +181,7 @@
                                     <li><a href="coming-soon.html">Coming Soon</a></li>
                                 </ul>
                             </li> -->
-                            <li><a href="{{route('contact')}}">Contact</a></li>
+                            <li class="{{ $elementActive == 'contact' ? 'active' : '' }}"><a href="{{route('contact')}}">Contact</a></li>
                             <!-- Cart Icon Starts -->
                             <!-- <li class="cart"><a href="shopping-cart.html"><i class="fa fa-shopping-cart"></i></a></li> -->
                             <!-- Cart Icon Starts -->

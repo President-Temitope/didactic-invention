@@ -29,7 +29,7 @@ class SiteController extends Controller
     }
 
     public function plan(){
-        return view('site::pages.plan');
+        return view('site::pages.pricing');
     }
 
     public function services(){
