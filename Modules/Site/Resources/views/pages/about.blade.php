@@ -117,7 +117,7 @@
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <div class="team-member">
                         <!-- Team Member Picture Starts -->
-                        <img src="images/team/" class="img-responsive" alt="team member">
+                        <img src="images/team/member4.jpg" class="img-responsive" alt="team member">
                         <!-- Team Member Picture Ends -->
                         <!-- Team Member Details Starts -->
                         <div class="team-member-caption social-icons">
@@ -143,7 +143,7 @@
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <div class="team-member">
                         <!-- Team Member Picture Starts -->
-                        <img src="images/team/" class="img-responsive" alt="team member">
+                        <img src="images/team/member2.jpg" class="img-responsive" alt="team member">
                         <!-- Team Member Picture Ends -->
                         <!-- Team Member Details Starts -->
                         <div class="team-member-caption social-icons">
@@ -170,7 +170,7 @@
                     <!-- Team Member-->
                     <div class="team-member">
                         <!-- Team Member Picture Starts -->
-                        <img src="images/team/" class="img-responsive" alt="team member">
+                        <img src="images/team/member3.jpg" class="img-responsive" alt="team member">
                         <!-- Team Member Picture Ends -->
                         <!-- Team Member Details Starts -->
                         <div class="team-member-caption social-icons">
@@ -196,7 +196,7 @@
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <div class="team-member">
                         <!-- Team Member Picture Starts -->
-                        <img src="images/team/" class="img-responsive" alt="team member">
+                        <img src="images/team/member1.jpg" class="img-responsive" alt="team member">
                         <!-- Team Member Picture Ends -->
                         <!-- Team Member Details Starts -->
                         <div class="team-member-caption social-icons">

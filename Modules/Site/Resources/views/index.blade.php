@@ -486,11 +486,11 @@
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <div class="team-member">
                         <!-- Team Member Picture Starts -->
-                        <img src="" class="img-responsive" alt="team member">
+                        <img src="images/team/member4.jpg" class="img-responsive" alt="team member">
                         <!-- Team Member Picture Ends -->
                         <!-- Team Member Details Starts -->
                         <div class="team-member-caption social-icons">
-                            <h4>Lina Marzouki</h4>
+                            <h4>Marc Smith</h4>
                             <p>Ceo Founder</p>
                             <!-- <ul class="list list-inline social">
                                 <li>
@@ -512,7 +512,7 @@
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <div class="team-member">
                         <!-- Team Member Picture Starts -->
-                        <img src="" class="img-responsive" alt="team member">
+                        <img src="images/team/member2.jpg" class="img-responsive" alt="team member">
                         <!-- Team Member Picture Ends -->
                         <!-- Team Member Details Starts -->
                         <div class="team-member-caption social-icons">
@@ -539,7 +539,7 @@
                     <!-- Team Member-->
                     <div class="team-member">
                         <!-- Team Member Picture Starts -->
-                        <img src="" class="img-responsive" alt="team member">
+                        <img src="images/team/member3.jpg" class="img-responsive" alt="team member">
                         <!-- Team Member Picture Ends -->
                         <!-- Team Member Details Starts -->
                         <div class="team-member-caption social-icons">
@@ -565,7 +565,7 @@
                 <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                     <div class="team-member">
                         <!-- Team Member Picture Starts -->
-                        <img src="" class="img-responsive" alt="team member">
+                        <img src="images/team/member1.jpg" class="img-responsive" alt="team member">
                         <!-- Team Member Picture Ends -->
                         <!-- Team Member Details Starts -->
                         <div class="team-member-caption social-icons">
@@ -600,7 +600,7 @@
                 <div class="col-md-4 img-block-quote bg-image-2">
                     <blockquote>
                         <p>Bitcoin is one of the most important inventions in all of human history. For the first time ever, anyone can send or receive any amount of money with anyone else, anywhere on the planet, conveniently and without restriction. It’s the dawn of a better, more free world.</p>
-                        <footer><img src="" alt="ceo" /> <span>Marc Smith</span> - CEO</footer>
+                        <footer><img src="images/team/member4.jpg" alt="ceo" /> <span>Marc Smith</span> - CEO</footer>
                     </blockquote>
                 </div>
                 <!-- Quote Ends -->
