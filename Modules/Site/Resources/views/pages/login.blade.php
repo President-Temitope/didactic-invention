@@ -98,7 +98,7 @@
         <div class="hidden-xs col-sm-4 col-md-4 col-lg-4">
             <!-- Logo Starts -->
             <a class="logo" href="/">
-                <img id="logo-user" class="img-responsive" src="images/logo-dark.png" alt="logo">
+                <img id="logo-user" class="img-responsive" src="img/logo1.png" alt="logo"  style="width: 200px;">
             </a>
             <!-- Logo Ends -->
             <!-- Slider Starts -->
@@ -150,7 +150,7 @@
         <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
             <!-- Logo Starts -->
             <a class="visible-xs" href="/">
-                <img id="logo" class="img-responsive mobile-logo" src="{{asset('images/logo-dark.png')}}" alt="logo">
+                <img id="logo" class="img-responsive mobile-logo" src="{{asset('img/logo1.png')}}" alt="logo" style="width: 250px;">
             </a>
             <!-- Logo Ends -->
             <div class="form-container">

@@ -131,8 +131,18 @@
             <!-- Section Content Starts -->
             <div class="row about-content">
                 <!-- Image Starts -->
+
+                <style>
+         #myVideo {
+            /* margin-top: 1500px;
+            margin-bottom: 1500px; */
+         }
+    </style>
                 <div class="col-sm-12 col-md-5 col-lg-6 text-center">
                     <!-- <img id="about-us" class="img-responsive img-about-us" src="images/about-us.png" alt="about us"> -->
+                    <video controls height="300px" id="myVideo" width="500px" controls autoplay>
+                        <source src="video/ads.mp4" type="video/mp4">
+                    </video>
                 </div>
                 <!-- Image Ends -->
                 <!-- Content Starts -->

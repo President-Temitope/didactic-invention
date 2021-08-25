@@ -5110,4 +5110,28 @@ h4.panel-title a.collapsed:before {
   .countdown-amount {
     font-size: 28px;
   }
+
+  #myVideo {
+
+    width: 348px;
+    /* height: 300px; */
+  }
+
+  #main-slide .item.item-3 {
+
+    background-image: url('../images/slider/bg5.jpg');
+  
+  }
+
+  #main-slide .item.item-3 {
+    min-height: 320px;
+    color: #fff;
+    background-position: 58% -18%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-backface-visibility: hidden;
+  }
+
+
+
 }
